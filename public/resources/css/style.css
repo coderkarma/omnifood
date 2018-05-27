@@ -558,9 +558,46 @@ textarea {
 .input[type="checkbox"] {
     margin: 10px 5px 10px 0;
 }
- *:focus{outline: none;}
+ *:focus{outline: none; }
+
+ .map-box {
+     width: 100%;
+     height: 630px;
+     position: relative;
+ }
+
+ .map {
+     width: 100%;
+     height: 630px;
+     z-index: 0;
+     position: relative;
+ }
+
+ .form-box {
+     position: absolute;
+     width: 50%;
+     top: 0;
+     right: 0;
+     background-color:rgba(255,255, 255, 0.8);
+     z-index: 10;
+     height: 630px;
+     padding-top: 40px;
+
+ }
+
+ .form-messages {
+     width: 70%;
+     margin: auto 0;
+     padding: 10px;
+     border-radius: 3px;
+     margin-bottom: 20px;
+     color: #333;
+ }
 
 
+ .success { background-color: rgba(50, 212, 104, 0.719);}
+
+ .error { background-color: rgba(236, 46, 32, 0.801);}
 
  /* ----------------- */
  /*     FOOTER       */
