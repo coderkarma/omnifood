@@ -8,3 +8,8 @@ Omnifood is single page web application which features ficticious food brand. It
 
 # Techologies used 
 HTML, CSS, javascript, jquery.
+
+# Things Learned 
+beautiful website with html, css
+More fimilaries with Grid and css animations
+
